@@ -1,4 +1,4 @@
-# ngxbeast-source.io
+# ZMK Per-Layer Color and Keymap Editor
 
 RGB Layer Color Generator and Keymap Tool for ZMK keyboards.
 
