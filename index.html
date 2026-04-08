@@ -3387,12 +3387,8 @@ function updateRgbOutput() {
     out += HELPER_TO_PRESS;
     out += HELPER_HOLD_TAP;
     out += HELPER_COMBO;
-    if (blinkMacros.some(function(bm) { return bm._helper === 'MO_BLINK'; })) {
-      out += HELPER_MO_BLINK;
-    }
-    if (blinkMacros.some(function(bm) { return bm._helper !== 'MO_BLINK' && bm.key && bm.key.indexOf('&mo') !== 0; })) {
-      out += HELPER_KP_BLINK;
-    }
+    out += HELPER_MO_BLINK;
+    out += HELPER_KP_BLINK;
   }
 
   var hasNativeMacroBeh = dtsiNativeBehaviors.some(function(db) { return db.type === 'macro-one-param' || db.type === 'macro-two-param'; });
