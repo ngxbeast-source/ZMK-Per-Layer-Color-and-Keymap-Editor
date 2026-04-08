@@ -9605,7 +9605,7 @@ document.addEventListener('DOMContentLoaded', function() {
     '<li><code>#define MO_RGB_MACRO(node_name, node_label, layer, NEWCOLOR, RETURNCOLOR)</code><br><em>This macro defines the &quot;new&quot; momentary layer\'s color.</em></li>' +
     '<li><code>#define HT_RGB(node_name, node_label, macro_ref)</code><br><em>This behavior defines the &quot;new&quot; momentary layer macro\'s function; used in conjunction with the above to get momentary LEDs. WITH a configurable keypress.</em></li>' +
     '<li><code>#define TO_RGB_PRESS_MACRO(node_name, node_label, layer, NEWCOLOR)</code><br><em>This is used for our &quot;combo gateways&quot; to access new sub-base layers. We use the press function for proper RGB behavior.</em></li>' +
-    '<li><code>#define TO_RGB_MACRO(node_name, node_label, layer, NEWCOLOR)</code><br><em>This is for our subbase layers, OR our combos, and should be used for building the actual &quot;sub-base\'s&quot;, the layers we access from the &quot;gateway&quot;, color functions.</em></li>' +
+    '<li><code>#define TO_RGB_MACRO(node_name, node_label, layer, NEWCOLOR)</code><br><em>This is for our SubBaseLayers, IN our combos, and should be used for building the actual &quot;sub-base\'s&quot;, the layers we access from the &quot;GatewayLayer&quot;, color functions.</em></li>' +
     '</ul>' +
     '<p><strong>IF ANYTHING REMAINS UNCLEAR, ALWAYS REFER TO THE ORIGINAL <code>.dtsi</code> FOR CLARITY/IDEA OF THE CODE STRUCTURE.</strong><br>' +
     '<button class="guide-file-btn" data-view-code="original">&#128196; View Original .dtsi (corne-rgb.dtsi)</button></p>' +
